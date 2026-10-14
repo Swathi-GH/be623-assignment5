@@ -43,6 +43,9 @@ circ_df %>%
   arrange(desc(Expression)) #arranges expression values in descending order
 
 #Q5: TRUE/FALSE Column
+#stores the value based on the condition give. 
+#Condition satisfied, then TRUE, else FALSE.
+
 circ_df2<-circ_df %>%
   mutate(dark = ZT >=12) #dark column is added and all the values ZT>12 stored in circ_df2
 

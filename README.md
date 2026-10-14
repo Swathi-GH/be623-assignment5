@@ -7,3 +7,4 @@ This document contains the information regarding all the files present in this r
 5) .gitignore: Contains Rstudio generated files and directories that Git should ignore.
 6) README.md: Describes the files and the content in the repo. 
 
+All the analysis was done using rstudio with packages - dplyr and ggplot2.
